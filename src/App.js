@@ -6,8 +6,8 @@ function App() {
   const [count,setCount] = useState(0)
   useEffect(() => {
    count %2 === 0 ?
-    console.log('${count} is even'):
-    console.log('${count} is odd')
+    console.log(count +' is even'):
+    console.log(count+'is odd')
   },[count])
   
   return (
