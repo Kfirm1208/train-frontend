@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  
+
 }
 
 .App-logo {
@@ -38,10 +38,19 @@
   }
 }
 
-.button {
+.button_red {
   display:center;
   padding: 0.2rem 3rem;
-  background-color :blueviolet;
+  background-color :red;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.button_green {
+  display:center;
+  padding: 0.2rem 3rem;
+  background-color :green;
   border: none;
   color: white;
   font-size: 2rem;
