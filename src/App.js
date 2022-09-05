@@ -5,8 +5,10 @@ import {useEffect} from 'react'
 function App() {
   const [count,setCount] = useState(0)
   useEffect(() => {
-    console.log("Test test")
-  },[])
+   count %2 === 0 ?
+    console.log('${count} is even'):
+    console.log('${count} is odd')
+  },[count])
   
   return (
     <div className ='App'>
